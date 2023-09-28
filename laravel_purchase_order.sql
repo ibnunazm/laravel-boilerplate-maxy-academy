@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 19, 2023 at 11:03 AM
+-- Generation Time: Sep 28, 2023 at 08:20 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 7.4.33
 
@@ -82,15 +82,15 @@ CREATE TABLE `products` (
 
 INSERT INTO `products` (`id`, `product_name`, `product_code`, `price`, `created_at`, `updated_at`) VALUES
 (1, 'Voluptas officiis et nulla.', 'rerum', 100000, '2004-09-26 12:46:31', '2022-06-19 13:58:50'),
-(2, 'Optio enim in ratione est.', 'dolores', 100000, '1973-01-26 14:00:52', '1986-01-04 10:01:03'),
-(3, 'Illo molestiae ratione consequatur qui ducimus et qui.', 'molestiae', 100000, '1980-10-19 04:12:10', '1970-11-08 02:08:02'),
-(4, 'Dolore voluptatibus animi et magnam et.', 'cum', 100000, '1993-03-20 22:04:17', '2007-03-05 19:33:05'),
+(2, 'Optio enim in ratione est.', 'dolores', 20000, '1973-01-26 14:00:52', '1986-01-04 10:01:03'),
+(3, 'Illo molestiae ratione consequatur qui ducimus et qui.', 'molestiae', 15000, '1980-10-19 04:12:10', '1970-11-08 02:08:02'),
+(4, 'Dolore voluptatibus animi et magnam et.', 'cum', 80000, '1993-03-20 22:04:17', '2007-03-05 19:33:05'),
 (5, 'Quo temporibus a cum dolore.', 'et', 1541140, '2022-11-09 10:30:52', '2023-09-15 09:41:22'),
 (6, 'Ut nihil nobis ut incidunt voluptatem.', 'similique', 757656000, '1993-04-10 03:31:35', '1972-10-29 00:02:35'),
 (7, 'Beatae ut amet illo repellat est ab.', 'dolor', 282582, '2019-04-04 16:01:22', '2021-03-27 03:15:31'),
 (8, 'Labore dolor rerum totam porro.', 'quo', 564972, '1980-07-07 19:53:13', '2020-02-26 04:34:05'),
-(9, 'Aspernatur fugiat non consequatur consequatur quibusdam in quo.', 'ut', 100000, '1972-09-19 22:30:37', '1983-04-12 22:49:42'),
-(10, 'Enim beatae quos consequuntur quia rem enim labore.', 'cumque', 100000, '2007-10-07 12:19:10', '2017-03-04 14:41:24'),
+(9, 'Aspernatur fugiat non consequatur consequatur quibusdam in quo.', 'ut', 85000, '1972-09-19 22:30:37', '1983-04-12 22:49:42'),
+(10, 'Enim beatae quos consequuntur quia rem enim labore.', 'cumque', 950000, '2007-10-07 12:19:10', '2017-03-04 14:41:24'),
 (11, 'Explicabo voluptates consequatur dolor ut alias non.', 'natus', 569798, '1984-01-15 18:32:11', '2011-10-09 23:32:14'),
 (12, 'Sapiente et eos recusandae maxime non inventore natus.', 'eum', 741619, '1989-01-11 17:07:20', '1994-03-30 17:25:27'),
 (13, 'Animi velit assumenda sed.', 'qui', 654393, '1984-02-20 14:23:48', '1982-02-07 12:42:00'),
@@ -98,13 +98,13 @@ INSERT INTO `products` (`id`, `product_name`, `product_code`, `price`, `created_
 (15, 'Quod aspernatur qui ea veniam sit hic neque.', 'aut', 227696000, '1974-11-19 08:35:13', '2001-12-15 20:16:40'),
 (16, 'Ipsum et molestias ipsum aperiam blanditiis.', 'ut', 100000, '1984-10-10 10:18:47', '1990-05-25 05:25:22'),
 (17, 'Reiciendis et enim dolor laudantium odio dolor.', 'ratione', 1930040, '1974-02-21 19:24:19', '2012-09-13 06:20:39'),
-(18, 'Aut amet reiciendis eveniet magnam molestiae maxime.', 'ut', 100000, '2005-12-22 23:26:43', '2008-03-22 00:55:02'),
-(19, 'Corrupti suscipit cum exercitationem illum.', 'qui', 100000, '2007-12-01 14:09:30', '2012-04-26 05:18:03'),
-(20, 'Sint id in et earum quos.', 'quis', 100000, '1996-10-08 10:18:37', '1975-03-21 05:35:02'),
+(18, 'Aut amet reiciendis eveniet magnam molestiae maxime.', 'ut', 110000, '2005-12-22 23:26:43', '2008-03-22 00:55:02'),
+(19, 'Corrupti suscipit cum exercitationem illum.', 'qui', 10000, '2007-12-01 14:09:30', '2012-04-26 05:18:03'),
+(20, 'Sint id in et earum quos.', 'quis', 50000, '1996-10-08 10:18:37', '1975-03-21 05:35:02'),
 (21, 'Velit tenetur ducimus rem pariatur nemo animi.', 'quis', 68570400, '1977-12-16 03:53:24', '1986-05-15 21:35:31'),
-(22, 'Sint est et quis quisquam.', 'ipsum', 100000, '2010-07-15 04:14:48', '1982-06-21 09:01:57'),
+(22, 'Sint est et quis quisquam.', 'ipsum', 40000, '2010-07-15 04:14:48', '1982-06-21 09:01:57'),
 (23, 'Et blanditiis mollitia quo.', 'quo', 19922800, '2023-05-08 00:19:44', '1975-06-18 06:44:04'),
-(24, 'Amet et et autem nemo dolorum sint hic.', 'natus', 100000, '1979-06-10 11:52:49', '1985-12-28 08:30:39'),
+(24, 'Amet et et autem nemo dolorum sint hic.', 'natus', 35000, '1979-06-10 11:52:49', '1985-12-28 08:30:39'),
 (25, 'Nostrum eveniet ut aut molestiae dolore est magnam corporis.', 'quibusdam', 10720500, '2004-06-21 21:06:20', '1985-10-21 10:48:49'),
 (26, 'Porro nihil id beatae.', 'aut', 8459720, '1970-03-22 21:06:02', '2010-10-21 18:59:07'),
 (27, 'Alias fugit iure reiciendis illo at eum quasi.', 'non', 2984580, '2013-03-13 18:34:50', '1981-02-16 04:01:52'),
@@ -171,7 +171,7 @@ CREATE TABLE `protection_validations` (
 
 CREATE TABLE `purchase_order_lines` (
   `id` bigint(20) UNSIGNED NOT NULL,
-  `product_id` bigint(20) DEFAULT NULL,
+  `product_id` bigint(20) UNSIGNED NOT NULL,
   `qty` int(11) NOT NULL,
   `price` float NOT NULL,
   `discount` float NOT NULL,
@@ -185,8 +185,8 @@ CREATE TABLE `purchase_order_lines` (
 --
 
 INSERT INTO `purchase_order_lines` (`id`, `product_id`, `qty`, `price`, `discount`, `total`, `created_at`, `updated_at`) VALUES
-(1, NULL, 2, 2000, 50, 3999.5, '2023-09-19 01:43:38', '2023-09-19 01:43:38'),
-(2, NULL, 4, 3000, 10, 11999.9, '2023-09-19 01:57:45', '2023-09-19 01:57:45');
+(6, 5, 4, 2000, 50, 4000, '2023-09-19 04:37:00', '2023-09-19 04:37:00'),
+(7, 2, 2, 5000, 10, 9000, '2023-09-28 09:11:20', '2023-09-28 09:11:20');
 
 -- --------------------------------------------------------
 
@@ -252,7 +252,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `active`, `confirmation_code`, `confirmed`, `remember_token`, `email_verified_at`, `created_at`, `updated_at`, `deleted_at`, `last_login`) VALUES
-(1, 'Admin', 'admin.laravel@labs64.com', '$2y$10$VPesviPtDdrVYsVv3so6UuicJtRgrsXlWU0Pq7f3W2osJ2b5DHdQu', 1, 'ba7e2c0b-a510-48ad-9764-00da9966049d', 1, NULL, NULL, '2023-09-18 23:37:08', '2023-09-18 23:37:08', NULL, NULL),
+(1, 'Admin', 'admin.laravel@labs64.com', '$2y$10$VPesviPtDdrVYsVv3so6UuicJtRgrsXlWU0Pq7f3W2osJ2b5DHdQu', 1, 'ba7e2c0b-a510-48ad-9764-00da9966049d', 1, NULL, NULL, '2023-09-18 23:37:08', '2023-09-28 09:10:14', NULL, '2023-09-28 16:10:14'),
 (2, 'Demo', 'demo.laravel@labs64.com', '$2y$10$OX65IWjuQ7Wxi4ZlvQ0zHOMQj.NUNIiST2FkFe9Qdyw6HMXr804Fi', 1, '208ebdd7-392f-417d-ba7f-607af8eeaab4', 1, NULL, NULL, '2023-09-18 23:37:08', '2023-09-18 23:37:08', NULL, NULL);
 
 -- --------------------------------------------------------
@@ -381,7 +381,7 @@ ALTER TABLE `protection_validations`
 -- AUTO_INCREMENT for table `purchase_order_lines`
 --
 ALTER TABLE `purchase_order_lines`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT for table `roles`
@@ -416,6 +416,12 @@ ALTER TABLE `protection_shop_tokens`
 --
 ALTER TABLE `protection_validations`
   ADD CONSTRAINT `pv_foreign_user` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE;
+
+--
+-- Constraints for table `purchase_order_lines`
+--
+ALTER TABLE `purchase_order_lines`
+  ADD CONSTRAINT `purchase_order_lines_ibfk_1` FOREIGN KEY (`product_id`) REFERENCES `products` (`id`) ON UPDATE CASCADE;
 
 --
 -- Constraints for table `social_accounts`
